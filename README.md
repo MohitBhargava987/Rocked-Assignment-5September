@@ -3,10 +3,10 @@
 
 Supports Admin and User APIs
 
-Uses dotenv for environment variables
-CORS enabled
-Joi for request validation
-Centralized error handling
+Uses dotenv for environment variables - 
+CORS enabled - 
+Joi for request validation - 
+Centralized error handling - 
 
 **Setup**
 Clone repo - 
@@ -14,12 +14,7 @@ git clone https: //github.com/MohitBhargava987/Rocked-Assignment-5September.git 
 cd Rocked_test - 
 npm install
 
-**Create .env file**
-PORT=3000
-DB_USER=root
-DB_NAME=rocked_db
-DB_HOST=localhost
-DB_PASSWORD=''
+I have pushed the .env file as well as it didn't contain any sensitive data
 
 **Run**
 node index.js
