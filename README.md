@@ -111,6 +111,7 @@ curl --location 'localhost: 3000/api/admin/create_edit_exam' \
 }'
 
 **2. Fetch the Exam List along with filters**
+
 curl --location 'localhost:3000/api/admin/search_exam' \
 --header 'Content-Type: application/json' \
 --data '{
@@ -121,6 +122,7 @@ curl --location 'localhost:3000/api/admin/search_exam' \
 **User APIs**
 
 **3. Fetch Exam List for the user along with email sent in headers**
+
 curl --location 'localhost:3000/api/user/get_exam_data' \
 --header 'email: a@gmail.com' \
 --header 'Content-Type: application/json' \
@@ -129,6 +131,7 @@ curl --location 'localhost:3000/api/user/get_exam_data' \
 }'
 
 **4. Add submission to the of the exam with email sent in headers (I have added further validations of the array sent in request as well)**
+
 curl --location 'localhost:3000/api/user/submit_exam' \
 --header 'email: a@gmail.com' \
 --header 'Content-Type: application/json' \
