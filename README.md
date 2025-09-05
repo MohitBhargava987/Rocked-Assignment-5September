@@ -25,6 +25,9 @@ Server runs at http: //localhost:3000
 DB has also been pushed name with-> rocked_db.sql
 
 I am also attaching the API Curls along with their purposes.
+
+**Admin APIs**
+
 1. Add or Update the Exam Data
 
 curl --location 'localhost: 3000/api/admin/create_edit_exam' \
@@ -114,6 +117,8 @@ curl --location 'localhost:3000/api/admin/search_exam' \
     "status": 1,
     "order_by": 2
 }'
+
+**User APIs**
 
 3. Fetch Exam List for the user along with email sent in headers
 curl --location 'localhost:3000/api/user/get_exam_data' \
