@@ -9,9 +9,9 @@ Joi for request validation
 Centralized error handling
 
 **Setup**
-Clone repo
-git clone https: //github.com/MohitBhargava987/Rocked-Assignment-5September.git
-cd Rocked_test
+Clone repo - 
+git clone https: //github.com/MohitBhargava987/Rocked-Assignment-5September.git - 
+cd Rocked_test - 
 npm install
 
 **Create .env file**
